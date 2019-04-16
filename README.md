@@ -2,7 +2,7 @@
 
 1 step
 ------------
-Open the folder in the terminal where you want to download the project and enter the command (git clone https://github.com/varejy/learn-Redux-Webpack-Babel-React-Node.js.git)
+Open the folder in the terminal where you want to download the project and enter the command (git clone https://github.com/varejy/Redux-Task.git)
 
 2 step
 ------------
