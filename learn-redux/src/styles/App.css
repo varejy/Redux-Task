@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(27, 27, 27);
+    margin: 0px 0px;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.chat{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.showMessage{
+    width: 419px;
+    height: 430px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid brown;
+    border-radius: 15px;
+    padding: 25px;
+    padding-right: 6px;
+    box-shadow: 0px 0px 20px 0px;
+}
+
+.wrappMessage{
+    width: 98%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 25px;
+    overflow: hidden;
+    overflow: auto;
+}
+h1 {
+    color: brown;
+    margin: 0px 0px;
+}
+
+h3 {
+    margin: 0px 0px;
+    background-color: brown;
+    color: #d4d4d4;
+    padding: 9px 9px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    width: fit-content;
+}
+
+ul:last-child {
+    margin-bottom: 0px;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+input{
+    background-color: transparent;
+    border: 2px solid brown;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 200px;
+    height: 30px;
+    color: brown;
+    padding-left: 18px;
+}
+.submit{
+    background-color: transparent;
+    border: 2px solid brown;
+    border-left: 0px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    width: 65px;
+    height: 36px;
+    color: brown
+}
+
+::-webkit-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width: 7px;
+    height:0px
+    }
+    
+    ::-webkit-scrollbar-track {
+    background-color: transparent
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: brown;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover{
+    background-color: #692121;
+    }
+    
+    ::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    width: 7px;
+    height:0px
+    }
+    
+    ::-webkit-scrollbar{
+    width: 7px;
+    }
